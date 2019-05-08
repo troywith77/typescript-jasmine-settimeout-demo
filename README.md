@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Jasmine Demo
 ===========================
+
+让Jasmine支持typescript代码： https://stackoverflow.com/a/49058732/342235
 
 ```
 npm install
-npm run demo
+npm test
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-

@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "test": "ts-node ./node_modules/jasmine/bin/jasmine.js"
   },
   "devDependencies": {
+    "@types/jasmine": "3.3.12",
+    "jasmine": "3.4.0",
     "ts-node": "7.0.1",
     "typescript": "3.2.2"
   }
