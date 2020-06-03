@@ -1,7 +1,7 @@
-TypeScript Jasmine Demo
+TypeScript Jasmine "setTimeout" Demo
 ===========================
 
-让Jasmine支持typescript代码： https://stackoverflow.com/a/49058732/342235
+如何让Jasmine mock clock，从而方便的测试timeout，不需要等
 
 ```
 npm install
