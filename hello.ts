@@ -1,7 +1,6 @@
-export default async function hello(): Promise<string> {
-  return new Promise<string>(resolve => {
-    setTimeout(() => {
-      resolve('Hello,world!');
-    }, 100000);
-  });
+export default async function hello(cb: Function) {
+  Promise.resolve()
+    .then(() => {
+      cb();
+    });
 }
