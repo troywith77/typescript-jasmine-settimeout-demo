@@ -1,7 +1,7 @@
-TypeScript Jasmine "setTimeout" Demo
+TypeScript Jasmine "Promise" Demo
 ===========================
 
-如何让Jasmine mock clock，从而方便的测试timeout，不需要等
+测试某一个函数内部包含 Promise.then 的情况
 
 ```
 npm install
